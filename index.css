@@ -1,0 +1,530 @@
+@import url("https://fonts.googleapis.com/css?family=Space Grotesk");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgba(21, 21, 21, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Space Grotesk";
+}
+
+html,
+body {
+  height: 100%;
+}
+
+@media (min-width: 375px) {
+  body {
+    background-image: none;
+  }
+
+  .onlymobile {
+    background-image: url(starter-code/assets/images/pattern-circle.svg);
+    background-repeat: no-repeat;
+    background-position: 300px 250px;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(starter-code/assets/images/pattern-rings.svg);
+    background-repeat: no-repeat;
+    background-position: -330px 170px;
+  }
+
+  .adamkeyes {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .adamkeyes h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.3333333432674408px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .lineadam {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1.1363636255264282px;
+    text-align: center;
+  }
+
+  .icon {
+    width: 153.99px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .profile {
+    width: 174.21px;
+    height: 288px;
+    background: linear-gradient(
+      180deg,
+      rgba(36, 36, 36, 0.0001) 0.65%,
+      #242424 100%
+    );
+  }
+
+  .nicemeet {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0px;
+    align-items: center;
+    gap: 20px;
+  }
+
+  h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1.1363636255264282px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    color: rgba(217, 217, 217, 1);
+  }
+
+  .contacttext {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2.1px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .lineadam {
+    text-decoration: underline;
+    text-decoration-color: rgba(78, 225, 160, 1);
+  }
+
+  .line2 {
+    width: 116px;
+    height: 2px;
+    background: rgba(78, 225, 160, 1);
+    margin-top: 5px;
+  }
+
+  .line3 {
+    width: 343px;
+    height: 1px;
+    background: rgba(255, 255, 255, 1);
+    margin-top: 60px;
+  }
+
+  .programlanguage {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding-top: 72px;
+  }
+
+  .experience {
+    width: 345px;
+    height: 67px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+  }
+
+  .experience h1 {
+    font-size: 32px;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .experience p {
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(217, 217, 217, 1);
+  }
+
+  .project {
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+    gap: 76px;
+  }
+
+  .imageparagraph {
+    padding-top: 46px;
+    width: 343px;
+    height: 398px;
+  }
+
+  .imageparagraph h1 {
+    font-size: 24px;
+    text-align: left;
+    padding-top: 10px;
+  }
+
+  .imageparagraph p {
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .HTMLCSS {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .image {
+    width: 345px;
+    height: 253px;
+  }
+
+  .linemany {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+
+  .photolines {
+    border-bottom: 2px solid rgba(78, 225, 160, 1);
+    padding-bottom: 10px;
+  }
+
+  .lastpage1 {
+    padding-top: 80px;
+  }
+
+  .lastpage {
+    background: rgba(36, 36, 36, 1);
+    padding-top: 60px;
+    background-image: url(starter-code/assets/images/pattern-rings.svg);
+    background-repeat: no-repeat;
+    background-position: -350px 350px;
+  }
+
+  .contact2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .lastpage p {
+    font-size: 16px;
+  }
+
+  .namemessage {
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+  }
+
+  .nameline {
+    width: 343px;
+    height: 1px;
+    background: rgba(255, 255, 255, 1);
+  }
+  .nameline2 {
+    margin-top: 87px;
+    margin-left: 15px;
+  }
+
+  .contacttext2 {
+    padding-left: 199px;
+  }
+
+  .mobileadamikeys {
+    padding-bottom: 60.8px;
+  }
+}
+
+@media (min-width: 768px) {
+  .tabletandmobile {
+    display: flex;
+    flex-direction: row-reverse;
+    background-image: none;
+    background-image: url(starter-code/assets/images/pattern-rings.svg);
+    background-position: -280px 120px;
+  }
+
+  .adamkeyes {
+    flex-direction: row;
+    gap: 438px;
+    padding-right: 25px;
+    padding-top: 80px;
+  }
+
+  h1 {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: -2.045454502105713px;
+    text-align: left;
+  }
+
+  header {
+    align-items: flex-end;
+    width: 322px;
+    height: 600px;
+    background-image: none;
+  }
+
+  .nicemeet {
+    position: relative;
+    padding-top: 190px;
+    left: 20px;
+    align-items: first baseline;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .nicemeet p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+  }
+
+  .lineadam {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: -2.045454502105713px;
+    text-align: left;
+    color: #ffffff;
+  }
+  .profile {
+    position: relative;
+    width: 350px;
+    height: 600px;
+  }
+
+  .line3 {
+    width: 760px;
+  }
+
+  .lineoff {
+    width: 0px;
+  }
+
+  .programlanguage {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-image: url(starter-code/assets/images/pattern-rings.svg);
+    background-repeat: no-repeat;
+    background-position: 600px 360px;
+  }
+
+  .experience {
+    height: 98px;
+    align-items: first baseline;
+  }
+  .project {
+    gap: 325px;
+    display: flex;
+  }
+
+  .imagegrid {
+    gap: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .linemany {
+    width: 271px;
+    height: 38px;
+  }
+
+  .contact2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .texttablet {
+    padding: 0px 185px;
+  }
+
+  .tabletline {
+    margin-top: 50px;
+  }
+
+  .tabletline2 {
+    width: 706px;
+    margin-top: 92px;
+    margin-left: 50px;
+  }
+
+  .tabletadamikeys {
+    margin-left: 50px;
+  }
+
+  .conteinerdesktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (min-width: 1440px) {
+  body {
+    padding: 0px auto;
+    background-image: url(starter-code/assets/images/pattern-rings.svg);
+    background-repeat: no-repeat;
+    background-position: -100px 120px;
+  }
+  .tabletandmobile {
+    height: 820px;
+    width: 1100px;
+    background-image: none;
+  }
+  .desktop {
+    background-image: url(starter-code/assets/images/pattern-circle.svg);
+    background-position: 600px 580px;
+  }
+
+  header {
+    width: 445px;
+    height: 720px;
+  }
+  .adamkeyes {
+    padding-bottom: 30px;
+    gap: 720px;
+  }
+  .profile {
+    width: 444.88px;
+    height: 618px;
+  }
+
+  .nicemeet {
+    position: relative;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  h1 {
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: -2.5px;
+    text-align: left;
+  }
+  .nicemeet p {
+    padding-top: 86px;
+  }
+
+  .line3 {
+    width: 1110px;
+    height: 1px;
+  }
+
+  .programlanguage {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-image: url(starter-code/assets/images/pattern-rings.svg);
+    background-position: 1000px 220px;
+  }
+
+  .programlanguage h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -1.5px;
+    text-align: left;
+  }
+
+  .programlanguage p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+  }
+
+  .lineoff {
+    height: 0px;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: row;
+    gap: 663px;
+  }
+
+  .imagegrid {
+    gap: 30px;
+  }
+  .imageparagraph {
+    width: 540px;
+    height: 500px;
+  }
+
+  .image {
+    width: 545.81px;
+    height: 400px;
+  }
+
+  .linemany {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+
+  .lastpage {
+    background-image: url(starter-code/assets/images/pattern-rings.svg);
+    background-repeat: no-repeat;
+    background-position: -220px 270px;
+  }
+
+  .contact2 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .conteinerdesktop {
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    padding-bottom: 120px;
+    padding-right: 130px;
+  }
+
+  .texttablet {
+    width: 400px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+
+    padding: 0;
+  }
+  .desktopline {
+    width: 1050px;
+    margin-right: 50px;
+  }
+}
